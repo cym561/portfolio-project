@@ -30,11 +30,11 @@ p{
 
 }
 .work-content{
-    max-width: 80%;
+    margin: 100px 60px;
     text-align: center;
     padding: 80px 20px;
-    background: var(--secondary-color);
-    margin-left: 120px;
+   
+    
 }
 .me{
     max-width: 60%;
