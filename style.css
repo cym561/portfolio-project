@@ -35,7 +35,7 @@ p{
     color: var(--branding);
     background-color: var(--secondary-color);
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 38px;
     transition: all 100ms ease-in-out;
 }
 .contact-box{
