@@ -57,7 +57,10 @@
     max-width: 60%;
     margin: 60px 20px;
   }
-  
+  .about{
+    background-image: url(pexels-anete-lusina-5240548.jpg);
+    color: white;
+  }
   .content {
     max-width: 80%;
     margin: 50px 30px;
@@ -73,7 +76,7 @@
     
   }
   .img-fluid{
-    max-width: 600px;
+    max-width: 360px;
     max-height: auto;
   }
   .btn-branding {
@@ -84,7 +87,11 @@
     padding: 15px 30px;
     margin-top: 30px;
   }
-  
+  .me p{
+    
+    font-family: var(--text-font);
+    font-size: 148px;
+  }
   .hero p {
     margin: 0;
     font-family: var(--text-font);
