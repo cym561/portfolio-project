@@ -87,6 +87,23 @@
     padding: 15px 30px;
     margin-top: 30px;
   }
+
+  .talent{
+    font-size: 48px;
+    color: #712be2;
+   text-align: center; 
+   text-shadow: #6c63ff;
+   text-decoration: underline;
+   
+  }
+    .skills{
+      text-align: center;
+      margin-left: 450px;
+    }
+  .icons{
+    max-width: 40px;
+    
+  }
   .me p{
     
     font-family: var(--text-font);
