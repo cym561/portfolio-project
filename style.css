@@ -3,7 +3,10 @@
     color: rgb(85, 82, 82) !important;
     line-height: 42px;
   }
-  
+  body{
+    max-width: 80%;
+    margin-left: 150px;
+  }
   :root {
     --branding: #6c63ff;
     --secondary-color: #f9f7fe;
@@ -88,26 +91,32 @@
   .talent{
     font-size: 48px;
     color: #712be2;
-   text-align: center; 
+   margin-right: 50px; 
    text-shadow: #6c63ff;
    text-decoration: underline;
    
+  }
+  .project-info{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: #6c63ff;
   }
   .contact-heading{
     text-align: center;
   }
   .send-message{
     max-width: 500px;
-    margin-left: 500px;
+    margin-left: 200px;
     text-align: center;
   }
     .skills{
       text-align: center;
-      margin-left: 450px;
+      margin-left: 250px;
     }
   .icons{
     max-width: 40px;
-    
+    justify-content: space-between;
   }
   .me p{
     
@@ -119,7 +128,9 @@
     font-family: var(--text-font);
     font-size: 19px;
   }
-  
+  .project-info{
+    text-align: center;
+  }
   .hero h1 {
     font-family: var(--heading-font);
     font-weight: bold;
@@ -129,6 +140,10 @@
   
   
   @media (max-width: 579px) {
+    body{
+      max-width: 80%;
+      align-items: center;
+    }
     h1 {
       font-size: 36px;
     }
@@ -137,6 +152,24 @@
     }
     .btn-branding {
       font-size: 14px;
+    }
+    .skills{
+      text-align: center;
+     
+    }
+    .send-message{
+      max-width: 300px;
+      
+      text-align: center;
+    }
+    .me p{
+    
+      font-family: var(--text-font);
+      font-size: 78px;
+    }
+    .img-fluid{
+      max-width: 260px;
+      max-height: auto;
     }
   }
   
