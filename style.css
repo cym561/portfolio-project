@@ -14,7 +14,7 @@
   h1 {
     font-family: var(--heading-font);
     font-weight: bold;
-    font-size: 76px;
+    font-size: 45px;
     line-height: 1.5;
   }
   
@@ -69,8 +69,13 @@
     background-color: var(--secondary-color);
     text-align: center;
     padding: 80px 20px;
+   
+    
   }
-  
+  .img-fluid{
+    max-width: 600px;
+    max-height: auto;
+  }
   .btn-branding {
     background: var(--branding);
     color: white;
@@ -89,7 +94,7 @@
   .hero h1 {
     font-family: var(--heading-font);
     font-weight: bold;
-    font-size: 96px;
+    font-size: 130px;
     line-height: 1.5;
   }
   
