@@ -87,7 +87,13 @@
     padding: 15px 30px;
     margin-top: 30px;
   }
-
+  .my-projects{
+    background-color: var(--secondary-color);
+  }
+  .project{
+    margin-top: 50px;
+    max-width: 300px;
+  }
   .talent{
     font-size: 48px;
     color: #712be2;
