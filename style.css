@@ -31,15 +31,6 @@
     font-size: 16px;
   }
   
-  .social-links a {
-    padding: 10px;
-    margin: 0 20px;
-    color: var(--branding);
-    background-color: var(--secondary-color);
-    border-radius: 50%;
-    font-size: 28px;
-    transition: all 100ms ease-in-out;
-  }
   
   .contact-box {
     background: var(--secondary-color);
@@ -102,6 +93,14 @@
    text-decoration: underline;
    
   }
+  .contact-heading{
+    text-align: center;
+  }
+  .send-message{
+    max-width: 500px;
+    margin-left: 500px;
+    text-align: center;
+  }
     .skills{
       text-align: center;
       margin-left: 450px;
@@ -128,23 +127,8 @@
     line-height: 1.5;
   }
   
-  /* Media Queries */
-  @media screen and (max-width: 768px) {
-    h1 {
-      font-size: 56px;
-    }
-    h2 {
-      font-size: 28px;
-    }
-    .me {
-      max-width: 100%;
-    }
-    .content {
-      max-width: 100%;
-    }
-  }
   
-  @media screen and (max-width: 576px) {
+  @media (max-width: 579px) {
     h1 {
       font-size: 36px;
     }
